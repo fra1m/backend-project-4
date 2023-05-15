@@ -1,12 +1,7 @@
-m ?= 'fix'
+m ?= fix
 gitm:
 	git add .
 	git commit -m '$(m)'
-	git push
-
-gitfix:
-	git add .
-	git commit -m 'fix'
 	git push
 
 lint:
